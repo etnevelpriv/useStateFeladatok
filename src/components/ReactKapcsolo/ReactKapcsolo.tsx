@@ -9,6 +9,7 @@ export const ReactKapcsolo = function () {
             <button onClick={() => {
                 kapcsoloAllapot ? setAllapot(false) : setAllapot(true)
             }}> Allapot valtoztatasa</button >
+            {/* <img src={kapcsoloAllapot ? "https://www.w3schools.com/js/pic_bulbon.gif": "https://www.w3schools.com/js/pic_bulboff.gif"} alt="" /> */}
         </>
     )
 };
